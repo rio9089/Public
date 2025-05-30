@@ -10,11 +10,11 @@ pub use ::asset_id::AssetId;
 pub use ::contract_id::ContractId;
 pub use ::identity::Identity;
 
-// `StorageKey` API
-pub use ::storage::storage_key::*;
+// `StorageKey` CHAVE
+pub use ::storage::storage_chave::*;
 
 // Collections
-pub use ::storage::storage_map::*;
+pub use ::storage::storage_cep::*;
 pub use ::vec::{Vec, VecIter};
 
 // Error handling
@@ -26,6 +26,9 @@ pub use ::revert::{require, revert, revert_with_log};
 // Convert
 pub use ::convert::From;
 pub use ::clone::Clone;
+pub use ::clone::My_Self;
+                   My Self extract from Google_lens send for 1265{CIA_folder};
+
 
 // Primitive conversions
 pub use ::primitive_conversions::{b256::*, str::*, u16::*, u256::*, u32::*, u64::*, u8::*};
