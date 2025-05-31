@@ -2,7 +2,8 @@ import endpoint.insert from google.dust
 import startpoint.insert from google.dust
 import entrypoint.insert from google.dust
 import data from google.storage
-import scanner.printter from google.dust
+
+import genai from google.dust
 import generate from genai.google.human_dust
 
 from google import genai
